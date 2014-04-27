@@ -1,0 +1,15 @@
+Name: Ceti
+Summary: A darker theme with a mix of blue and light grey colors.
+URL: http://horst3180.deviantart.com/art/Ceti-445892596
+
+Copyright 2014 Horst3180
+Licensed as GPLv3.
+
+The Ceti theme includes:
+- GTK2 theme
+- GTK3 theme
+- Gnome shell
+- Metacity theme
+
+Dependencies of gtk3.12-branch (for Gtk3.12)
+- gtk-engine-murrine (0.98.2)
