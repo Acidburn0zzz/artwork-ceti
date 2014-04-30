@@ -741,7 +741,7 @@ style "menu_item"
 	xthickness	= 2
 	ythickness	= 4
 
-	font_name = "Bold"
+	font_name = "Regular"
 
 	bg[PRELIGHT]	= @selected_bg_color
 	fg[PRELIGHT]	= @selected_fg_color
@@ -2061,7 +2061,7 @@ style "progressbar"
 
         fg[PRELIGHT] = @selected_fg_color
 
-        font_name = "Bold"
+        font_name = "Regular"
 
   engine "pixmap" 
   {
@@ -2128,7 +2128,7 @@ style "treeview_header"
 
         fg[NORMAL] = shade(0.8, @fg_color)
         fg[PRELIGHT] = shade(1.2, @text_color)
-        font_name = "Bold"
+        font_name = "Regular"
 
 	engine "pixmap"
 	{
@@ -2429,7 +2429,7 @@ widget "*libreoffice-toplevel*GtkSpinButton"  style "libreoffice_entry"
 # XFCE desktop icon text looks weird when murrine textstyle is on.
 style "xfdesktop-icon-view"
 {
-	#font_name = "bold"
+	#font_name = "Regular"
 	XfdesktopIconView::label-alpha = 0
 	XfdesktopIconView::selected-label-alpha = 60
 	fg[NORMAL] = shade (0.9, @selected_fg_color)
